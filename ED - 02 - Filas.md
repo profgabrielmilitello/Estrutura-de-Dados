@@ -49,8 +49,17 @@ public class Fila{
         Fila fila = new Fila();
         
         fila.adicionar(10);
+        fila.print();
+        //SAÍDA: [ 10 ]
+        
         fila.adicionar(20);
+        fila.print();
+        //SAÍDA: [ 10 20 ]
+        
         fila.adicionar(30);
+        fila.print();
+        //SAÍDA: [ 10 20 30 ]
+        
         fila.adicionar(40);
         fila.print();
         //SAÍDA: [ 10 20 30 40 ]
