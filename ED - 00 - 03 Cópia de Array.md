@@ -42,6 +42,7 @@ public class ArrayPlayground{
 ```
 
 A saída desse código é:
+
 1 2 3 4 5
 
 10 2 3 4 5
@@ -90,6 +91,7 @@ public class ArrayPlayground{
 ```
 
 A saída é:
+
 1 2 3 4 5
 
 1 2 3 4 5
