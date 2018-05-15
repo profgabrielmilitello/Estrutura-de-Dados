@@ -42,8 +42,10 @@ public class ArrayPlayground{
 ```
 
 A saída desse código é:
-1 2 3 4 5 
-10 2 3 4 5 
+1 2 3 4 5
+
+10 2 3 4 5
+
 20 2 3 4 5 
 
 Observe que a chamada dos métodos alterou o vetor original, mesmo quando o atribuímos a uma variável diferente em *changeCopy*.
@@ -88,9 +90,11 @@ public class ArrayPlayground{
 ```
 
 A saída é:
-1 2 3 4 5 
-1 2 3 4 5 
-10 2 3 4 5 
+1 2 3 4 5
+
+1 2 3 4 5
+
+10 2 3 4 5
 
 O que mostra que o array original não foi modificado, apenas sua cópia.
 Tivemos que mudar o tipo de retorno do método pra retornar o novo array.
