@@ -52,6 +52,10 @@ public class ListaLigada{
     System.out.println(this);
   }
   
+  public void adicionarNaFrente(int valor){
+    this.adicionarNaFrente(new No(valor));
+  }
+  
   public void adicionarNaFrente(No no){
     if(this.primeiro != null){
     	no.setProximo(this.primeiro);
@@ -60,6 +64,10 @@ public class ListaLigada{
     this.tamanho++;
   }
   
+ public void adicionarNoFim(int valor){
+    this.adicionarNoFim(new No(valor));
+  }
+
   public void adicionarNoFim(No no){
     if(this.primeiro == null){
     	this.primeiro = no;
