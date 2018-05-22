@@ -49,7 +49,7 @@ public class ListaLigada{
   }
   
   public void print(){
-  	System.out.println(this);
+    System.out.println(this);
   }
   
   public void adicionarNaFrente(No no){
