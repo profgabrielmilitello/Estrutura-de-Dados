@@ -64,3 +64,71 @@ public boolean contains(int valor){
     return false;
 }
 ```
+
+#### Percorrendo uma árvore binária:
+
+```
+    A
+   / \
+  B   D
+ /   / \
+C   E   F
+```
+
+### Pré-Ordem:
+
+Você deve visitar primeiro a raiz, depois a sub-árvore esquerda e por último a sub-árvore direita.
+
+Resultado: `ABCDEF`
+
+### Em-ordem (In-Ordem): 
+
+Você deve visitar primeiro a sub-árvore esquerda, depois a raiz e por último a sub-árvore direita.
+
+Resultado: `CBAEDF`
+
+### Pós-Ordem:
+
+Você deve visitar primeiro a sub-árvore esquerda, depois a sub-árvore direita e por último a raiz.
+
+Resultado: `CBEFDA`
+
+## Árvores AVL (Adelson Velsky e Landis):
+
+São árvores binárias ordenadas e balanceadas.
+
+Chamamos de balanceadas árvores em que nenhuma folha está em uma altura (ou tem nível) maior ou igual que o nível da folha mais profunda da árvore oposta + 2.
+
+Nos exemplos abaixo não levamos em conta ordenação, apenas o balanceamento:
+
+```
+    A
+   / \
+  B   D
+ /   / \
+C   E   F
+```
+
+Nesse exemplo a árvore está balanceada, por que a árvore esquerda e direita terminam no mesmo nível.
+
+```
+    A
+   / \
+  B   D
+ /  
+C   
+```
+
+Nesse exemplo a árvore está balanceada, por que a árvore esquerda termina no nível em que termina a direita + 1.
+
+```
+        A
+       / \ 
+      B   E 
+     /  
+    C
+   /
+  D   
+```
+
+Nesse exemplo a árvore está desbalanceada, por que a árvore esquerda termina no nível em que termina a direita + 2.
