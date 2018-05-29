@@ -95,11 +95,11 @@ Resultado: `CBEFDA`
 
 ## Árvores AVL (Adelson Velsky e Landis):
 
-São árvores binárias ordenadas e balanceadas.
+**São árvores binárias ordenadas e balanceadas.**
 
 Chamamos de balanceadas árvores em que nenhuma folha está em uma altura (ou tem nível) maior ou igual que o nível da folha mais profunda da árvore oposta + 2.
 
-Nos exemplos abaixo não levamos em conta ordenação, apenas o balanceamento:
+Nos exemplos abaixo não levamos em conta ordenação, apenas o balanceamento, portanto não são AVL:
 
 ```
     A
